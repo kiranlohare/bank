@@ -1,4 +1,4 @@
-import java.util.Scanner;
+mport java.util.Scanner;
 public class AccountOpen 
 {
 	String name;
@@ -11,28 +11,24 @@ public class AccountOpen
 	String pwd;
 	int ammount;
 	Scanner sc=new Scanner(System.in);
-	public static void printMessage()
+	public static void display()
 	{
-		
+		//Main Screen content method
 	}
-	public void setAccount()
+	public void createAccount()
 	{
-		
+		//Account open method
 	}
 	public void checkBalance()
 	{
-		
+		//check balance
 	}
-	public void getAmmount()
+	public void withdraw()
 	{
-		
+		//withdraw logic
 	}
-	public void setDeposit()
+	public void deposit()
 	{
-		
-	}
-	public static void main(String[] args) 
-	{
-		
+		//deposit ammount
 	}
 }
