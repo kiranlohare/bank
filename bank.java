@@ -187,3 +187,52 @@ public class AccountOpen
 		//deposit ammount
 	}
 }
+
+
+
+class Main{
+
+public static void main(String[] args){}
+	
+	Scanner sc1 = new Scanner(System.in);
+		
+		while(true) {
+		
+		System.out.println("\t=====================================================================================================================================");
+		System.out.println("\t+                                                       WELCOME                                                                     +");
+		System.out.println("\t=====================================================================================================================================");
+		System.out.println("\t+              1. Account Opening                                                        3. Balance Enquiry                         +");
+		System.out.println("\t+                                                                                                                                   +");
+		System.out.println("\t+              2. Cash Withdrawal                                                        4. Cash Deposit                            +");
+		System.out.println("\t=====================================================================================================================================");
+		
+			while(true) {
+				System.out.print("\t\t\t\t\t\t\t\t");
+				byte b = sc1.nextByte();
+		
+				if(b==1) {
+					System.out.println("1"); //Account Opening 
+					break;
+					
+				}else if(b==2){
+					System.out.println("2"); //Cash Withdrawal
+					break;
+					
+				}else if(b==3){
+					System.out.println("3"); //Balance Enquiry 
+					break;
+					
+				}else if(b==4){
+					System.out.println("4"); //Cash Deposit
+					break;
+					
+				}else{
+					System.out.println();
+					System.out.println("\t\t\t\t\t\t\t\tInvalid Selection...!");
+					System.out.println("\t\t\t\t\t\t\t\tPlease Retry");
+				}
+		
+			}
+		}
+	
+}
